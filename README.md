@@ -21,7 +21,7 @@ chmod -x deploy.sh
 ``` 
 - now get the link of zip file of your github repository
 
-![alt text](Screenshot 2023-05-16 at 7.54.09 PM.png)
+![github](Screenshot 2023-05-16 at 7.54.09 PM.png)
 
 - ensure that link is ending with **main.zip**
 - give the repo name correctly before `-main`
