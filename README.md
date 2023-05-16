@@ -17,7 +17,7 @@ This bash script is designed to streamline the process of deploying a static web
 - type the following command below before executing the script file 
 
 ``` 
-chmod -x deploy.sh 
+chmod +x deploy.sh 
 ``` 
 - now get the link of zip file of your github repository
 - ensure that link is ending with **main.zip**
