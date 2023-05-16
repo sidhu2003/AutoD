@@ -1,1 +1,1 @@
-# static-website-deployment-automate-script
+# static website deployment automate script
