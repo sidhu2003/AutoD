@@ -20,7 +20,8 @@ This bash script is designed to streamline the process of deploying a static web
 chmod -x deploy.sh 
 ``` 
 - now get the link of zip file of your github repository
-![github image](https://drive.google.com/file/d/1q6CA4q7UZZFBFR0ucC89skisDXoe2Okq/view](https://drive.google.com/file/d/1q6CA4q7UZZFBFR0ucC89skisDXoe2Okq/view?usp=sharing)
+<!-- ![github image](https://drive.google.com/file/d/1q6CA4q7UZZFBFR0ucC89skisDXoe2Okq/view](https://drive.google.com/file/d/1q6CA4q7UZZFBFR0ucC89skisDXoe2Okq/view?usp=sharing) -->
+<iframe src="https://drive.google.com/file/d/1q6CA4q7UZZFBFR0ucC89skisDXoe2Okq/preview" width="640" height="480" allow="autoplay"></iframe>
 
 - ensure that link is ending with **main.zip**
 - give the repo name correctly before `-main`
