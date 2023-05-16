@@ -40,7 +40,7 @@ chmod -x deploy.sh
 
 - Our aim is to build a collaborative community where everyone is welcome and valued. We believe that open-source is the way of the future, and we're excited to see what contributions you will bring to the table.
 
-##LICENSE 
+## LICENSE 
 
 The source code is licensed [apache2](https://github.com/sidhu2003/static-website-deployment-automate-script/blob/main/LICENSE)
 
