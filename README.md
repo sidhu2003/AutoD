@@ -32,7 +32,7 @@ chmod +x deploy.sh
 
 ## Contributers note 
 
-- I am thrilled to announce that this website is open to contribution! Our project is open-source and completely free to contribute to. We believe that everyone has something valuable to bring to the table, and we would love to have your input.
+- I am thrilled to announce that this repo is open to contribution! Our project is open-source and completely free to contribute to. We believe that everyone has something valuable to bring to the table, and we would love to have your input.
 
 - Whether you're a seasoned developer or just starting out, we welcome contributions of all levels. You can help us improve the project by reporting bugs, submitting feature requests, or even submitting code changes. We also welcome contributions in the form of documentation, user testing, or community management.
 
