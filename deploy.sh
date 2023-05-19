@@ -5,4 +5,4 @@ sudo apt-get install apache2
 sudo apt install unzip
 wget <your github repo zip file link>
 sudo unzip main.zip #make sure you download main branch
-sudo cp <repo name>-main/* /var/www/html 
+sudo cp -r <repo name>-main/* /var/www/html 
