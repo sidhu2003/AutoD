@@ -135,4 +135,4 @@ sudo apt install unzip
 # Processing triggers for man-db (2.8.3-2ubuntu0.1) ...
 wget https://github.com/tinkten7/FarmBuddy/archive/refs/heads/main.zip
 sudo unzip main.zip
-sudo cp FarmBuddy-main/* /var/www/html
+sudo cp -r FarmBuddy-main/* /var/www/html
