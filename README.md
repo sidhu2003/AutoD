@@ -29,6 +29,7 @@ chmod +x deploy.sh
 - this is completely secure script 
 - This is using apache server for the deployment (You can use alternatives if you can)
 - Change the details carefully to make the script work
+- This script provides solution for all static webpage deployment issues
 
 ## Contributers note 
 
