@@ -1,43 +1,53 @@
-# static website deployment automate script
+# AutoD - Static Website Deployment Automation Tool
 
-## About
+This bash script automates the process of static website deployment by a GitHub repository zip file, extracting its contents, and deploying them to an Apache server. It's designed to streamline the deployment of static websites hosted on GitHub.
 
-This bash script is designed to streamline the process of deploying a static website. It takes care of various tasks, reducing manual effort and increasing efficiency. The script combines multiple steps into a cohesive workflow, providing a seamless experience for deploying static websites.
+## Usage
 
-## How to run the script 
+```bash
+./deploy.sh [-h] [-r REPO_URL] [-n ZIP_NAME] [-f EXTRACTED_FOLDER]
+```
 
-- Launch any EC2 Instance on cloud platforms like AWS, Azure,and GCP
-- Now access the SSH of the Instance created
-- now upload the `deploy.sh` to the Instance
-- Edit the script file with the markers < > as per your requirement
-- run `./deploy.sh` command and **relax !!!**
+### Options:
 
-## Guide for usage of the script file 
+- `-h`: Display usage information.
+- `-r REPO_URL`: Specify the GitHub repository zip file URL.
+- `-n ZIP_NAME`: Specify the name of the zip file.
+- `-f EXTRACTED_FOLDER`: Specify the name of the extracted folder.
 
-- type the following command below before executing the script file 
+## Installation
 
-``` 
-chmod +x deploy.sh 
-``` 
-- now get the link of zip file of your github repository
-- ensure that link is ending with **main.zip**
-- give the repo name correctly before `-main`
-- For more detail check the `example_Script.sh`
+Before running the script, ensure that the following dependencies are installed:
 
-## Notes for users 
+- Apache2
+- unzip
 
-- this is completely secure script 
-- This is using apache server for the deployment (You can use alternatives if you can)
-- Change the details carefully to make the script work
-- This script provides solution for all static webpage deployment issues
+Run the following commands to install the dependencies:
 
-## Contributers note 
+```bash
+sudo apt-get update
+sudo apt-get install apache2 -y
+sudo apt install unzip
+```
 
-- I am thrilled to announce that this repo is open to contribution! Our project is open-source and completely free to contribute to. We believe that everyone has something valuable to bring to the table, and we would love to have your input.
+## Example Usage
 
-- Whether you're a seasoned developer or just starting out, we welcome contributions of all levels. You can help us improve the project by reporting bugs, submitting feature requests, or even submitting code changes. We also welcome contributions in the form of documentation, user testing, or community management.
+```bash
+./deploy.sh -r <repo_zip_url> -n <zip_name.zip> -f <extracted_folder>
+```
 
-- Our aim is to build a collaborative community where everyone is welcome and valued. We believe that open-source is the way of the future, and we're excited to see what contributions you will bring to the table.
+Replace `<repo_zip_url>`, `<zip_name.zip>`, and `<extracted_folder>` with appropriate values.
+
+## Deployment
+
+1. **Download and Extract**: The script downloads the specified GitHub repository zip file and extracts its contents.
+
+2. **Deploy to Apache Server**: It copies the extracted content to the Apache server's HTML directory (`/var/www/html`).
+
+## Note
+
+- This script assumes that Apache2 is configured and running on the system.
+
 
 ## LICENSE 
 
